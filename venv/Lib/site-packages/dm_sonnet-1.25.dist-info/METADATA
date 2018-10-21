@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: dm-sonnet
+Version: 1.25
+Summary: Sonnet is a library for building neural networks in TensorFlow.
+Home-page: http://www.github.com/deepmind/sonnet/
+Author: DeepMind
+Author-email: sonnet-dev-os@google.com
+License: Apache 2.0
+Keywords: sonnet tensorflow tensor machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: six
+Requires-Dist: absl-py
+Requires-Dist: semantic-version
+Requires-Dist: contextlib2
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow (>=1.8.0); extra == 'tensorflow'
+Provides-Extra: tensorflow_probability
+Requires-Dist: tensorflow-probability (>=0.4.0); extra == 'tensorflow_probability'
+Provides-Extra: tensorflow_probability_with_gpu
+Requires-Dist: tensorflow-probability-gpu (>=0.4.0); extra == 'tensorflow_probability_with_gpu'
+Provides-Extra: tensorflow_with_gpu
+Requires-Dist: tensorflow-gpu (>=1.8.0); extra == 'tensorflow_with_gpu'
+
+UNKNOWN
+
+
